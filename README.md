@@ -23,7 +23,7 @@ This homelab allows me to:
 - Remote access secured with **TailScale VPN**
 - Reverse proxy with xgnix
 
-![Network Diagram](images/Main_Network.png)
+![Network Diagram](images/Main_NetWork.png)
 
 ![VLANS](images/VLANS.png)
 
