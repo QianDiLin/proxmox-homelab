@@ -25,7 +25,13 @@ This homelab allows me to:
 
 ![Network Diagram](images/Main_NetWork.png)
 
+VLANs separating main network with ones for just proxmox, one for other labs and services, and main network for all my home devices.
+
 ![VLANS](images/VLANS.png)
+
+Nginx proxy for services that I use/monitor in a consistent basis
+
+![Nginx](images/Nginx.png)
 
 ---
 ## ⚙️ Virtual Machines & Services
