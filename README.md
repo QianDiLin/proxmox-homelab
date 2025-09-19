@@ -41,10 +41,8 @@ Example:
 - **Centralized Log Monitoring** – Aggregated logs for observability  
 - **ServerHosting VM** – General-purpose testing environment  
 - **Infra-Control Node** – Automation workflows (Ansible/Terraform)
-
-📷 *Add a **screenshot of your Proxmox VM/container list** here.*  
-Example:  
-`![Proxmox VM Overview](images/Server_Overview.png)`
+ 
+![Proxmox VM Overview](images/Server_Overview.png)
 
 👉 *(Optional: for each major service, add a short note on what you learned. Example: “Deploying OPNsense taught me how to configure VLAN tagging and firewall rules to segment lab traffic.”)*
 
