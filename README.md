@@ -25,7 +25,7 @@ This homelab allows me to:
 
 📷 *Add a **diagram of your network topology** here (router → switch → Proxmox → VMs/VLANs).*  
 Example:  
-`![Network Diagram](images/Server Overview.png)`
+`![Network Diagram](images/Network.png)`
 
 ---
 
@@ -44,7 +44,7 @@ Example:
 
 📷 *Add a **screenshot of your Proxmox VM/container list** here.*  
 Example:  
-`![Proxmox VM Overview](images/proxmox-vms.png)`
+`![Proxmox VM Overview](images/Server_Overview.png)`
 
 👉 *(Optional: for each major service, add a short note on what you learned. Example: “Deploying OPNsense taught me how to configure VLAN tagging and firewall rules to segment lab traffic.”)*
 
