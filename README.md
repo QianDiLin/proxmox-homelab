@@ -1,4 +1,4 @@
-# 🖥️ Homelab Infrastructure Lab
+# 🖥️ Home Infrastructure Lab
 
 ## Overview
 I designed and maintain a **virtualized datacenter homelab** to simulate enterprise infrastructure.  
@@ -82,7 +82,7 @@ I also set up a backup server.
 
 It would backup one container at a time.
 
-Here is the Backup Job for it
+Here is the Backup Job (It would 
 
 ![Proxmox Backup Job](images/Backup_Job_Config.png)
 
@@ -95,6 +95,6 @@ Here is the Backup Job for it
 - Storage & backup management (TrueNAS, PBS)  
 - Infrastructure automation (Ansible, Terraform)
 
-👉 *(Here you can add a closing paragraph: “This project demonstrates my ability to design and manage complex infrastructure similar to enterprise environments.”)*
+*This homelab is more than a personal project, it’s a practical demonstration of my ability to build and manage enterprise-grade infrastructure on my own. By designing a full-stack environment with virtualization, networking, monitoring, and backups, I’ve proven I can deliver reliable, secure, and maintainable systems from the ground up. The same skills I use here: troubleshooting, performance tuning, and security hardening directly translate to professional IT operations. I view this lab as both a testing ground for new technologies and as proof of my capability to take ownership of complex infrastructure, continuously improve it, and keep it running smoothly.*
 
 ---
