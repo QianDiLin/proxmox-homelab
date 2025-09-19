@@ -28,23 +28,34 @@ Example:
 `![Network Diagram](images/Network.png)`
 
 ---
-
 ## ⚙️ Virtual Machines & Services
-- **Proxmox Backup Server** – Automated VM/container snapshots & disaster recovery  
-- **TrueNAS (ZFS)** – Storage & backup server for shared files and VM data  
+
+- **Proxmox Backup Server** – Automated VM/container snapshots  
+  > *I learned how to schedule and test backups for disaster recovery and simulate enterprise backup workflows.*  
+
+- **TrueNAS (ZFS)** – Storage & backup server  
+  > *Working with ZFS helped me understand RAID levels, snapshots, and storage pooling for reliability.*  
+
 - **NextCloud** – Self-hosted collaboration and file sync  
-- **VaultWarden** – Password manager for secure credential storage  
-- **Nginx Proxy Manager** – Reverse proxy with SSL termination  
-- **Docker Host** – Containerized apps & microservices testing  
-- **Pi-hole** – Network-wide DNS filtering and ad blocking  
-- **Zabbix** – Infrastructure monitoring and alerting  
-- **Centralized Log Monitoring** – Aggregated logs for observability  
-- **ServerHosting VM** – General-purpose testing environment  
-- **Infra-Control Node** – Automation workflows (Ansible/Terraform)
+  > *This gave me hands-on experience with reverse proxies and SSL certificates to securely expose services.*  
+
+- **VaultWarden** – Password manager  
+  > *Running VaultWarden reinforced best practices for secrets management and container security.*  
+
+- **Zabbix** – Monitoring and alerting  
+  > *First experience into monitoring virtual machines and containers in my network.*  
+
+- **Docker Host** – Containerized apps  
+  > *Experimenting with Docker helped me understand container lifecycle, networking, and persistent storage.*
+
+- **OPNsense** - Firewall, routing, VLAN segementation
+  > *Work in progress, eventually this will be the main router with firewall, and the current router will be access point.*
+
+- **LogMonitoring (Loki–Grafana/Promtail)** – Centralized logging and observability  
+  > *Setting up Loki with Promtail and Grafana taught me how to collect logs from multiple systems, query them efficiently, and visualize trends in real time for troubleshooting.*  
+
  
 ![Proxmox VM Overview](images/Server_Overview.png)
-
-👉 *(Optional: for each major service, add a short note on what you learned. Example: “Deploying OPNsense taught me how to configure VLAN tagging and firewall rules to segment lab traffic.”)*
 
 ---
 
@@ -58,7 +69,7 @@ Example:
 📷 *Add screenshots of monitoring dashboards (Zabbix/Grafana) or PBS backup jobs here.*  
 Example:  
 `![Zabbix Dashboard](images/zabbix.png)`  
-`![Proxmox Backup Server](images/pbs.png)`
+![Proxmox Backup Server](images/PBS_Webinterface.png)
 
 ---
 
