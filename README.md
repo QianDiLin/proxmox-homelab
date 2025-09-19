@@ -19,13 +19,13 @@ This homelab allows me to:
 
 ## 🌐 Network Topology
 
-- VLANs for **Management, Proxmox, and Lab/Test traffic**  
-- **OPNsense** VM for advanced firewalling, routing, and segmentation  
+- VLANs for **Management, Proxmox, Home Devices, and Lab/Test traffic**  
 - Remote access secured with **TailScale VPN**
+- Reverse proxy with xgnix
 
 📷 *Add a **diagram of your network topology** here (router → switch → Proxmox → VMs/VLANs).*  
 Example:  
-`![Network Diagram](images/network-diagram.png)`
+`![Network Diagram](images/Server Overview.png)`
 
 ---
 
