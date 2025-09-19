@@ -25,7 +25,7 @@ This homelab allows me to:
 
 📷 *Add a **diagram of your network topology** here (router → switch → Proxmox → VMs/VLANs).*  
 Example:  
-`![Network Diagram](images/Network.png)`
+`![Network Diagram](images/Main_Network.png)`
 
 ---
 ## ⚙️ Virtual Machines & Services
