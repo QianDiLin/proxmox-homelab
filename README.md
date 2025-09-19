@@ -4,7 +4,16 @@
 I designed and maintain a **virtualized datacenter homelab** to simulate enterprise infrastructure.  
 This lab helps me practice real-world **systems administration, networking, automation, and security** skills.
 
-👉 *(Here you can add a short paragraph about **why** you built it — e.g., “I wanted to replicate enterprise-style infrastructure at home to practice virtualization, networking, and automation in a hands-on way.”)*
+## 🎯 Why I Built This Homelab
+
+I enjoy the process of taking an empty server and building it up into a fully functional environment.  
+My goal was to create a set of utilities I use on a daily basis while also practicing skills that mirror the responsibilities I’d face in an enterprise job environment.  
+
+This homelab allows me to:
+- Continuously expand and improve my setup, seeing real progress over time  
+- Run practical tools I rely on every day (file sharing, password management, monitoring, VPN access)  
+- Gain hands-on experience with the same technologies used in professional IT environments  
+- Experiment safely with automation, security, and networking concepts before applying them in production-like scenarios  
 
 ---
 
