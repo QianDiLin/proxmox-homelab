@@ -52,9 +52,12 @@ Example:
   > *Work in progress, eventually this will be the main router with firewall, and the current router will be access point.*
 
 - **LogMonitoring (Loki–Grafana/Promtail)** – Centralized logging and observability  
-  > *Setting up Loki with Promtail and Grafana taught me how to collect logs from multiple systems, query them efficiently, and visualize trends in real time for troubleshooting.*  
+  > *Setting up Loki with Promtail and Grafana taught me how to collect logs from multiple systems, query them efficiently, and visualize trends in real time for troubleshooting.*
 
- 
+- **Game Server Hosting** – Dedicated VM for hosting multiplayer services  
+  > *Hosting game servers taught me about resource allocation, port forwarding, container isolation, and user access management. It also gave me experience monitoring performance under load and ensuring uptime for external users.*  
+
+
 ![Proxmox VM Overview](images/Server_Overview.png)
 
 ---
@@ -82,7 +85,7 @@ I also set up a backup server.
 
 It would backup one container at a time.
 
-Here is the Backup Job (It would 
+Here is the Backup Job (I am backing up all the virtual machines and containers I see as important monthly to the backup server's storage)
 
 ![Proxmox Backup Job](images/Backup_Job_Config.png)
 
