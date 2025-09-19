@@ -31,7 +31,7 @@ VLANs separating main network with ones for just proxmox, one for other labs and
 
 Nginx proxy for services that I use/monitor in a consistent basis
 
-![Nginx](images/Nginx.png)
+![Nginx](images/NGINX.png)
 
 ---
 ## ⚙️ Virtual Machines & Services
