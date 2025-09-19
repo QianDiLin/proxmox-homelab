@@ -23,9 +23,9 @@ This homelab allows me to:
 - Remote access secured with **TailScale VPN**
 - Reverse proxy with xgnix
 
-📷 *Add a **diagram of your network topology** here (router → switch → Proxmox → VMs/VLANs).*  
-Example:  
-`![Network Diagram](images/Main_Network.png)`
+![Network Diagram](images/Main_Network.png)
+
+![VLANS](images/VLANS.png)
 
 ---
 ## ⚙️ Virtual Machines & Services
