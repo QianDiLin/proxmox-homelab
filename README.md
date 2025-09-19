@@ -23,7 +23,25 @@ This homelab allows me to:
 - Remote access secured with **TailScale VPN**
 - Reverse proxy with xgnix
 
-![Network Diagram](images/Main_NetWork.png)
+Network Diagram:
+
+                [ Internet ]
+                     │
+        ┌────────────┴────────────┐
+        │        Router           │
+        │    + Firewall (OPNsense)│
+        └────────────┬────────────┘
+                     │
+               [ Managed Switch ]
+               │       │        │
+         Main PC   VLAN 10   VLAN 20
+                     │        │
+                [ Home Server ]
+             ┌───────┴────────┬──────────┐
+             │                │          │
+         Containers        VMs (Prod)   VMs (Lab)
+     (Pi-hole, Promtail)  (Zabbix, PBS) (Minecraft, Test Apps)
+
 
 VLANs separating main network with ones for just proxmox, one for other labs and services, and main network for all my home devices.
 
