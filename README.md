@@ -66,10 +66,25 @@ Example:
 - **Backup & Storage** → Disaster recovery with PBS and ZFS snapshots  
 - **Automation** → Infrastructure-as-Code with Ansible/Terraform
 
-📷 *Add screenshots of monitoring dashboards (Zabbix/Grafana) or PBS backup jobs here.*  
-Example:  
-`![Zabbix Dashboard](images/zabbix.png)`  
+![Zabbix Dashboard](images/Test_Dashboard_Zabbix.png)
+
+(I found that using the summary tab on Proxmox Webinterface more convenient since I was able to access the command line directly if I need to fix any deployments) 
+
+![Grafana DashBoard](images/Loki-Grafana_Logs.png)
+
+(I also set up Grafana via Loki and Pormtail. This I found as a great excerise for deploying agents, writing configs, and learning to pull logs from Virtual Machines. More in the next project)
+
 ![Proxmox Backup Server](images/PBS_Webinterface.png)
+
+I also set up a backup server.
+
+![Proxmox Backup Running](images/BackUp_Running.png)
+
+It would backup one container at a time.
+
+Here is the Backup Job for it
+
+![Proxmox Backup Job](images/Backup_Job_Config.png)
 
 ---
 
@@ -77,7 +92,7 @@ Example:
 - Virtualization & containerization (Proxmox, Docker, LXC)  
 - Linux administration & self-hosted services  
 - Network engineering (VLANs, OPNsense firewall, VPN)  
-- Storage & backup management (TrueNAS, ZFS, PBS)  
+- Storage & backup management (TrueNAS, PBS)  
 - Infrastructure automation (Ansible, Terraform)
 
 👉 *(Here you can add a closing paragraph: “This project demonstrates my ability to design and manage complex infrastructure similar to enterprise environments.”)*
