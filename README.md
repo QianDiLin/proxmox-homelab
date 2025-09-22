@@ -99,7 +99,7 @@ Nginx proxy for services that I use/monitor in a consistent basis
 
 ![Grafana DashBoard](images/Loki-Grafana_Logs.png)
 
-(I also set up Grafana via Loki and Pormtail. This I found as a great excerise for deploying agents, writing configs, and learning to pull logs from Virtual Machines. More in the next project)
+(I also set up Grafana via Loki and Pormtail. This I found as a great excerise for deploying agents, writing configs, and learning to pull logs from Virtual Machines)
 
 ![Proxmox Backup Server](images/PBS_Webinterface.png)
 
